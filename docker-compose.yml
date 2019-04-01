@@ -1,8 +1,10 @@
 version: '2.1'
 
 services:
-  golang-api:
-    image: golang-api
+  botnoi-api:
+    container_name: botnoi-api
+    image: botnoi-api
+    command: go run *.go
     build: .
     ports:
       - 8080:8080
