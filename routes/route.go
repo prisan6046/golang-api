@@ -13,5 +13,5 @@ func Route() {
 	e.GET("/about", controllers.About)
 	e.GET("/about", controllers.About)
 
-	e.Logger.Fatal(e.Start(":1323"))
+	e.Logger.Fatal(e.Start(":8080"))
 }
