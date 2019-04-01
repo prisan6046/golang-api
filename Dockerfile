@@ -4,7 +4,6 @@ FROM golang:alpine AS builder
 WORKDIR /go/src/app
 COPY . .
 RUN apk add --no-cache git
-RUN mkdir -p "$GOPATH/src" "$GOPATH/bin" && chmod -R 777 "$GOPATH"
 RUN go get -d -v ./...
 RUN go install -v ./...
 
