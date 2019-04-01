@@ -1,7 +1,7 @@
 package main
 
 import (
-	"api-kaimook-golang/routes"
+	"golang-api/routes"
 )
 
 func main() {

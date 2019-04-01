@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"api-kaimook-golang/controllers"
+	"golang-api/controllers"
 
 	"github.com/labstack/echo"
 )
